@@ -446,6 +446,23 @@ main {
 
 .social-item .social-link:hover { color: var(--light-gray); }
 
+.translation-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-left: 7px;
+  padding-top: 10px;
+}
+
+.translation-item .translation-link {
+  color: var(--light-gray-70);
+  font-size: 18px;
+}
+
+
+.translation-item .translation-link:hover { color: var(--light-gray); }
+
 
 
 
@@ -1339,7 +1356,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 120px; padding: 5%; border-radius: 30px;}
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1427,7 +1444,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 20px;
   }
 
-  .testimonials-avatar-box img { width: 80px; }
+  .testimonials-avatar-box img { width: 80px; padding: 5%; border-radius: 30px; }
 
   .testimonials-item-title {
     margin-bottom: 10px;
@@ -1463,7 +1480,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
   }
 
-  .modal-avatar-box img { width: 65px; }
+  .modal-avatar-box img { width: 65px; padding: 5%; border-radius: 30px; }
 
   .modal-img-wrapper > img {
     display: block;
@@ -1591,7 +1608,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-width: 680px;
   }
 
-  .modal-avatar-box img { width: 80px; }
+  .modal-avatar-box img { width: 80px; padding: 5%; border-radius: 30px; }
 
 
 
@@ -1803,7 +1820,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    max-width: 1200px;
+    max-width: 1300px;
     margin-inline: auto;
     display: flex;
     justify-content: center;
@@ -1835,7 +1852,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { width: 200px; padding: 5%; border-radius: 30px;}
 
   .info-content .name {
     white-space: nowrap;
@@ -1870,6 +1887,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .social-list { justify-content: center; }
+
+  .translation-list { justify-content: center; }
 
 
 

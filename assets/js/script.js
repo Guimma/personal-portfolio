@@ -157,3 +157,32 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+function translateTo(language) {
+  const elements = document.querySelectorAll('[data-translate]');
+  elements.forEach((element) => {
+    const key = element.getAttribute('data-translate');
+    element.textContent = translations[language][key];
+  });
+}
+
+// Example of triggering translation on language change
+const languageButtons = document.querySelectorAll('.translate-button');
+languageButtons.forEach((button) => {
+  button.addEventListener('click', (event) => {
+    const selectedLanguage = event.currentTarget.getAttribute('data-language');
+    console.log(selectedLanguage)
+    translateTo(selectedLanguage);
+  });
+});
+
+const translations = {
+  en: {
+    title: "Fullstack Developer",
+    description: "Welcome to my website!"
+  },
+  pt: {
+    title: "Desenvolvedor Fullstack",
+    description: "Bem-vindo!"
+  }
+};
