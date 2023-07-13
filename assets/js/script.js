@@ -145,7 +145,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
 
     for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
+      if (this.getAttribute('data-translate') === pages[i].dataset.page) {
         pages[i].classList.add("active");
         navigationLinks[i].classList.add("active");
         window.scrollTo(0, 0);
@@ -171,7 +171,6 @@ const languageButtons = document.querySelectorAll('.translate-button');
 languageButtons.forEach((button) => {
   button.addEventListener('click', (event) => {
     const selectedLanguage = event.currentTarget.getAttribute('data-language');
-    console.log(selectedLanguage)
     translateTo(selectedLanguage);
   });
 });
@@ -182,13 +181,32 @@ const translations = {
     showContacts: "Show Contacts",
     phone: "Phone",
     birthday: "Birthday",
-    location: "Location"
+    location: "Location",
+    aboutMe: "About Me",
+    aboutText1: "I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.",
+    aboutText2: "My job is to build your website so that it is functional and user-friendly but at the same time attractive.Moreover, Iadd personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bringacross yourmessage and identity in the most creative way. I created web design for many famous brand companies.",
+    whatDoing: "What i'm doing",
+    about: "About",
+    resume: "Resume",
+    portfolio: "Portfolio",
+    blog: "Blog",
+    contact: "Contact"
   },
   pt: {
     title: "Desenvolvedor Fullstack",
     showContacts: "Mostrar Contatos",
+    whatDoing: "What i'm doing",
     phone: "Telefone",
     birthday: "Data de Nascimento",
-    location: "Endereço"
+    location: "Endereço",
+    aboutMe: "Sobre Mim",
+    aboutText1: "PT I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.\n\nI enjoy\nturning complex problems into simple, beautiful and intuitive designs.",
+    aboutText2: "PT My job is to build your website so that it is functional and user-friendly but at the same time attractive.Moreover, Iadd personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bringacross yourmessage and identity in the most creative way. I created web design for many famous brand companies.",
+    whatDoing: "Meu Trabalho",
+    about: "Sobre",
+    resume: "Currículo",
+    portfolio: "Trabalhos",
+    blog: "Posts",
+    contact: "Contato"
   }
 };
