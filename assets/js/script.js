@@ -181,6 +181,7 @@ const translations = {
     showContacts: "Show Contacts",
     phone: "Phone",
     birthday: "Birthday",
+    birthdayDate: "April 04, 2000",
     location: "Location",
     aboutMe: "About Me",
     aboutText1: "I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.",
@@ -190,7 +191,8 @@ const translations = {
     resume: "Resume",
     portfolio: "Portfolio",
     blog: "Blog",
-    contact: "Contact"
+    contact: "Contact",
+    backendText: "EN BACKEND TEXT",
   },
   pt: {
     title: "Desenvolvedor Fullstack",
@@ -198,6 +200,7 @@ const translations = {
     whatDoing: "What i'm doing",
     phone: "Telefone",
     birthday: "Data de Nascimento",
+    birthdayDate: "04 de Abril, 2000",
     location: "Endereço",
     aboutMe: "Sobre Mim",
     aboutText1: "PT I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.\n\nI enjoy\nturning complex problems into simple, beautiful and intuitive designs.",
@@ -207,6 +210,7 @@ const translations = {
     resume: "Currículo",
     portfolio: "Trabalhos",
     blog: "Posts",
-    contact: "Contato"
+    contact: "Contato",
+    backendText: "PT BACKEND TEXT",
   }
 };
