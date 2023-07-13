@@ -179,10 +179,16 @@ languageButtons.forEach((button) => {
 const translations = {
   en: {
     title: "Fullstack Developer",
-    showContacts: "Show Contacts"
+    showContacts: "Show Contacts",
+    phone: "Phone",
+    birthday: "Birthday",
+    location: "Location"
   },
   pt: {
     title: "Desenvolvedor Fullstack",
-    showContacts: "Mostrar Contatos"
+    showContacts: "Mostrar Contatos",
+    phone: "Telefone",
+    birthday: "Data de Nascimento",
+    location: "Endereço"
   }
 };
