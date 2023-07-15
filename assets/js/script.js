@@ -198,7 +198,8 @@ const translations = {
     leadershipTitle: "Leadership",
     leadershipText: "EN leader text",
     communicationTitle: "Communication",
-    communicationText: "EN comm text"
+    communicationText: "EN comm text",
+    testimonialsTitle: "Testimonials"
   },
   pt: {
     title: "Desenvolvedor Fullstack",
@@ -223,6 +224,7 @@ const translations = {
     leadershipTitle: "Liderança",
     leadershipText: "PT leader text",
     communicationTitle: "Comunicação",
-    communicationText: "PT comm text"
+    communicationText: "PT comm text",
+    testimonialsTitle: "Testemunhos"
   }
 };
