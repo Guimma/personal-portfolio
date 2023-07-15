@@ -193,6 +193,12 @@ const translations = {
     blog: "Blog",
     contact: "Contact",
     backendText: "EN BACKEND TEXT",
+    frontendText: "EN FRONTEND TEXT",
+    devopsText: "EN devopsText",
+    leadershipTitle: "Leadership",
+    leadershipText: "EN leader text",
+    communicationTitle: "Communication",
+    communicationText: "EN comm text"
   },
   pt: {
     title: "Desenvolvedor Fullstack",
@@ -212,5 +218,11 @@ const translations = {
     blog: "Posts",
     contact: "Contato",
     backendText: "PT BACKEND TEXT",
+    frontendText: "PT FRONTEND TEXT",
+    devopsText: "PT devopsText",
+    leadershipTitle: "Liderança",
+    leadershipText: "PT leader text",
+    communicationTitle: "Comunicação",
+    communicationText: "PT comm text"
   }
 };
