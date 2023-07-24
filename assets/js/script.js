@@ -203,7 +203,9 @@ const translations = {
     education: "Education",
     educationText1: "Bachelor of Computer Science",
     educationText2: "High School",
-    experience: "Experience"
+    experience: "Experience",
+    clients: "Clients",
+    dtiPeriod: "2019 - Present"
   },
   pt: {
     title: "Desenvolvedor Fullstack",
@@ -229,10 +231,12 @@ const translations = {
     leadershipText: "PT leader text",
     communicationTitle: "Comunicação",
     communicationText: "PT comm text",
-    testimonialsTitle: "Testemunhos",
+    testimonialsTitle: "Depoimentos",
     education: "Formação",
     educationText1: "Bacharelado em Ciência da Computação",
     educationText2: "Ensino Médio",
-    experience: "Experiência"
+    experience: "Experiência",
+    clients: "PT Clientes",
+    dtiPeriod: "2019 - Atual"
   }
 };
