@@ -248,7 +248,9 @@ const translations = {
     languages: "Languages",
     frameworks: "Frameworks and Development Tools",
     skills: "Skills",
-    sendMessage: "Send Message"
+    sendMessage: "Send Message",
+    personalProjects: "Personal Projects",
+    portfolioText: "portfolioText"
   },
   pt: {
     title: "Desenvolvedor Fullstack",
@@ -265,7 +267,7 @@ const translations = {
     about: "Sobre",
     resume: "Currículo",
     portfolio: "Trabalhos",
-    blog: "Posts",
+    blog: "Blog",
     contact: "Contato",
     contactForm: "Formulário de Contato",
     backendText: "PT BACKEND TEXT",
@@ -286,6 +288,8 @@ const translations = {
     languages: "Linguagens",
     frameworks: "Frameworks e Ferramentas de Desenvolvimento",
     skills: "Habilidades",
-    sendMessage: "Enviar Mensagem"
+    sendMessage: "Enviar Mensagem",
+    personalProjects: "Projetos Pessoais",
+    portfolioText: "PT portfolioText"
   }
 };
