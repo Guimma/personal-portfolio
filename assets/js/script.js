@@ -158,6 +158,43 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
+
+function openWhatsApp() {
+  // Get the input values
+  const fullName = document.querySelector('[name="fullname"]').value;
+  const email = document.querySelector('[name="email"]').value;
+  const subject = document.querySelector('[name="subject"]').value;
+  const message = document.querySelector('[name="message"]').value;
+
+  // Format the WhatsApp message
+  const formattedMessage = `Olá! Me chamo ${fullName}!\nMeu email é ${email}\n\n${subject}\n\n${message}`;
+
+  // Create the WhatsApp URL with the pre-filled message
+  const encodedMessage = encodeURIComponent(formattedMessage);
+  const phoneNumber = "99696-4056"; // Hardcoded phone number
+  const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+
+  // Open the WhatsApp URL in a new window or tab
+  window.open(whatsappURL, '_blank');
+}
+
+
+function sendEmail() {
+  // Get the input values
+  const fullName = document.querySelector('[name="fullname"]').value;
+  const email = document.querySelector('[name="email"]').value;
+  const subject = document.querySelector('[name="subject"]').value;
+  const message = document.querySelector('[name="message"]').value;
+
+  // Construct the mailto link with the form data
+  const body = encodeURIComponent(`Hello! My name is ${fullName}.\nMy email is ${email}.\n\n${message}`);
+  const mailtoLink = `mailto:lucas@campregher.com?subject=${subject}&body=${body}`;
+
+  // Open the user's default email client with the mailto link
+  window.location.href = mailtoLink;
+}
+
+
 function translateTo(language) {
   const elements = document.querySelectorAll('[data-translate]');
   elements.forEach((element) => {
@@ -192,6 +229,7 @@ const translations = {
     portfolio: "Portfolio",
     blog: "Blog",
     contact: "Contact",
+    contactForm: "Contact Form",
     backendText: "EN BACKEND TEXT",
     frontendText: "EN FRONTEND TEXT",
     devopsText: "EN devopsText",
@@ -209,7 +247,8 @@ const translations = {
     mySkills: "My Skills",
     languages: "Languages",
     frameworks: "Frameworks and Development Tools",
-    skills: "Skills"
+    skills: "Skills",
+    sendMessage: "Send Message"
   },
   pt: {
     title: "Desenvolvedor Fullstack",
@@ -228,6 +267,7 @@ const translations = {
     portfolio: "Trabalhos",
     blog: "Posts",
     contact: "Contato",
+    contactForm: "Formulário de Contato",
     backendText: "PT BACKEND TEXT",
     frontendText: "PT FRONTEND TEXT",
     devopsText: "PT devopsText",
@@ -245,6 +285,7 @@ const translations = {
     mySkills: "Competências Técnicas",
     languages: "Linguagens",
     frameworks: "Frameworks e Ferramentas de Desenvolvimento",
-    skills: "Habilidades"
+    skills: "Habilidades",
+    sendMessage: "Enviar Mensagem"
   }
 };

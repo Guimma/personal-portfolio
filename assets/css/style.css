@@ -40,7 +40,7 @@
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
-    hsla(45, 100%, 71%, 0.251) 0%, 
+    hsla(194, 100%, 71%, 0.251) 0%, 
     hsla(35, 100%, 68%, 0) 59.86%
   ), hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
@@ -1168,6 +1168,17 @@ main {
   grid-template-columns: 1fr;
   gap: 25px;
   margin-bottom: 25px;
+}
+
+.send-btn-wrapper {
+  display: flex;
+  justify-content: flex-end; /* Align the nested container to the right */
+  gap: 25px;
+}
+
+.send-btn-container {
+  display: flex; /* Use flexbox for the nested container */
+  gap: 25px;
 }
 
 .form-input {
