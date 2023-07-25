@@ -250,7 +250,8 @@ const translations = {
     skills: "Skills",
     sendMessage: "Send Message",
     personalProjects: "Personal Projects",
-    portfolioText: "portfolioText"
+    portfolioText: "portfolioText",
+    article: "Article"
   },
   pt: {
     title: "Desenvolvedor Fullstack",
@@ -290,6 +291,7 @@ const translations = {
     skills: "Habilidades",
     sendMessage: "Enviar Mensagem",
     personalProjects: "Projetos Pessoais",
-    portfolioText: "PT portfolioText"
+    portfolioText: "PT portfolioText",
+    article: "Artigo"
   }
 };
