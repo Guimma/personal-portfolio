@@ -205,7 +205,11 @@ const translations = {
     educationText2: "High School",
     experience: "Experience",
     clients: "Clients",
-    dtiPeriod: "2019 - Present"
+    dtiPeriod: "2019 - Present",
+    mySkills: "My Skills",
+    languages: "Languages",
+    frameworks: "Frameworks and Development Tools",
+    skills: "Skills"
   },
   pt: {
     title: "Desenvolvedor Fullstack",
@@ -237,6 +241,10 @@ const translations = {
     educationText2: "Ensino Médio",
     experience: "Experiência",
     clients: "PT Clientes",
-    dtiPeriod: "2019 - Atual"
+    dtiPeriod: "2019 - Atual",
+    mySkills: "Competências Técnicas",
+    languages: "Linguagens",
+    frameworks: "Frameworks e Ferramentas de Desenvolvimento",
+    skills: "Habilidades"
   }
 };

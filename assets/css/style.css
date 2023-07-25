@@ -177,6 +177,12 @@ article {
   margin: 16px 0;
 }
 
+.space {
+  width: 100%;
+  background: var(--jet);
+  margin: 16px 0;
+}
+
 .icon-box {
   position: relative;
   background: var(--border-gradient-onyx);
@@ -1371,6 +1377,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .info_more-btn ion-icon { display: none; }
 
   .separator { margin: 32px 0; }
+
+  .space { margin: 32px 0; }
 
   .contacts-list { gap: 20px; }
 
