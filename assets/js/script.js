@@ -254,7 +254,13 @@ const translations = {
     personalProjects: "Personal Projects",
     portfolioText: "portfolioText",
     article: "Article",
-    testimonials1: "Lucas is an incredible professional! I had the opportunity to have him as a leader  and today I see a lot of what I learned from him in my way of leading. He is committed,  hardworking and very dedicated. He knows how to work in a team and always listens  with great respect and affection. It is unique and without a doubt he will be very successful in your professional life."
+    testimonials1: "Lucas is an incredible professional! I had the opportunity to have him as a leader  and today I see a lot of what I learned from him in my way of leading. He is committed,  hardworking and very dedicated. He knows how to work in a team and always listens  with great respect and affection. It is unique and without a doubt he will be very successful in your professional life.",
+    anpText: "Internship in software development. Experience with data processing development using Visual Basic in Excel.",
+    dtiText1: "Desenvolvedor de Software fullstack em diferentes projetos. Principais atividades:",
+    dtiText2: "API development;",
+    dtiText3: "Frontend web and mobile development;",
+    dtiText4: "Leadership of development teams in the agile model;",
+    dtiText5: "Use of devops and cloud development;"
   },
   pt: {
     title: "Desenvolvedor Fullstack",
@@ -297,6 +303,13 @@ const translations = {
     personalProjects: "Projetos Pessoais",
     portfolioText: "PT portfolioText",
     article: "Artigo",
-    testimonials1: "O Lucas é um profissional incrível! Tive a oportunidade de tê-lo como líder e hoje enxergo muito do que aprendi com ele na minha forma de liderar. Ele é comprometido, esforçado e muito dedicado. Sabe trabalhar em equipe e sempre escuta com muito respeito e carinho. É diferenciado e, sem dúvida, terá muito sucesso na vida profissional."
+    testimonials1: "O Lucas é um profissional incrível! Tive a oportunidade de tê-lo como líder e hoje enxergo muito do que aprendi com ele na minha forma de liderar. Ele é comprometido, esforçado e muito dedicado. Sabe trabalhar em equipe e sempre escuta com muito respeito e carinho. É diferenciado e, sem dúvida, terá muito sucesso na vida profissional.",
+    anpText: "Estágio em desenvolvimento de software. Experiência com desenvolvimento de tratamento de dados utilizando Visual Basic em Excel.",
+    dtiText1: "Desenvolvedor de Software fullstack em diferentes projetos. Principais atividades:",
+    dtiText2: "Desenvolvimento de API's;",
+    dtiText3: "Desenvolvimento frontend web e mobile;",
+    dtiText4: "Liderança de equipes de desenvolvimento no modelo ágil;",
+    dtiText5: "Utilização de devops e desenvolvimento em nuvem;",
+    dtiText6: "Co-host do podcast de desenvolvimento de software;"
   }
 };
