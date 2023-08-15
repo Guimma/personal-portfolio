@@ -253,7 +253,8 @@ const translations = {
     sendMessage: "Send Message",
     personalProjects: "Personal Projects",
     portfolioText: "portfolioText",
-    article: "Article"
+    article: "Article",
+    testimonials1: "Lucas is an incredible professional! I had the opportunity to have him as a leader  and today I see a lot of what I learned from him in my way of leading. He is committed,  hardworking and very dedicated. He knows how to work in a team and always listens  with great respect and affection. It is unique and without a doubt he will be very successful in your professional life."
   },
   pt: {
     title: "Desenvolvedor Fullstack",
@@ -295,6 +296,7 @@ const translations = {
     sendMessage: "Enviar Mensagem",
     personalProjects: "Projetos Pessoais",
     portfolioText: "PT portfolioText",
-    article: "Artigo"
+    article: "Artigo",
+    testimonials1: "O Lucas é um profissional incrível! Tive a oportunidade de tê-lo como líder e hoje enxergo muito do que aprendi com ele na minha forma de liderar. Ele é comprometido, esforçado e muito dedicado. Sabe trabalhar em equipe e sempre escuta com muito respeito e carinho. É diferenciado e, sem dúvida, terá muito sucesso na vida profissional."
   }
 };
