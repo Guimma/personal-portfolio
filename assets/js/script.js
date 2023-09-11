@@ -214,14 +214,14 @@ languageButtons.forEach((button) => {
 
 const translations = {
   en: {
-    title: "Fullstack Developer",
+    title: "Software Engineer",
     showContacts: "Show Contacts",
     phone: "Phone",
     birthday: "Birthday",
     birthdayDate: "April 04, 2000",
     location: "Location",
     aboutMe: "About Me",
-    aboutText1: "I'm a creative and communicative software developer! I am in constant evolution and quickly adapt to new challenges that move my professional life. My main interests are around backend development and I'm a huge data privacy enthusiast!",
+    aboutText1: "I'm a creative and communicative software engineer! I am in constant evolution and quickly adapt to new challenges that move my professional life. My main interests are around backend development and I'm a huge data privacy enthusiast!",
     aboutText2: "In my professional career I have had contact with the most diverse technologies, from the development of complex APIs, to web and mobile frontend applications. In my challenges I also had the opportunity to work with Devops and Cloud computing. I work as a technical leadership, improving my familiarity with the agile universe, and with the operational part of the teams to optimize deliveries. Today, in addition to my work routine, I also act as co-host of Entre Chaves, a podcast aimed at the dev world.",
     whatDoing: "My Skills",
     about: "About",
@@ -252,7 +252,7 @@ const translations = {
     skills: "Skills",
     sendMessage: "Send Message",
     personalProjects: "Personal Projects",
-    portfolioText: "portfolioText",
+    portfolioText: "Most of the projects I've worked on are private. Here's some of my public work.",
     article: "Article",
     testimonials1: "Lucas is an incredible professional! I had the opportunity to have him as a leader  and today I see a lot of what I learned from him in my way of leading. He is committed,  hardworking and very dedicated. He knows how to work in a team and always listens  with great respect and affection. It is unique and without a doubt he will be very successful in your professional life.",
     anpText: "Internship in software development. Experience with data processing development using Visual Basic in Excel.",
@@ -260,7 +260,8 @@ const translations = {
     dtiText2: "API development;",
     dtiText3: "Frontend web and mobile development;",
     dtiText4: "Leadership of development teams in the agile model;",
-    dtiText5: "Use of devops and cloud development;"
+    dtiText5: "Use of devops and cloud development;",
+    dtiText6: "Co-host of software development podcast;"
   },
   pt: {
     title: "Desenvolvedor Fullstack",
@@ -301,7 +302,7 @@ const translations = {
     skills: "Habilidades",
     sendMessage: "Enviar Mensagem",
     personalProjects: "Projetos Pessoais",
-    portfolioText: "PT portfolioText",
+    portfolioText: "A maioria dos projetos em que trabalhei são privados. Aqui está um pouco do meu trabalho público.",
     article: "Artigo",
     testimonials1: "O Lucas é um profissional incrível! Tive a oportunidade de tê-lo como líder e hoje enxergo muito do que aprendi com ele na minha forma de liderar. Ele é comprometido, esforçado e muito dedicado. Sabe trabalhar em equipe e sempre escuta com muito respeito e carinho. É diferenciado e, sem dúvida, terá muito sucesso na vida profissional.",
     anpText: "Estágio em desenvolvimento de software. Experiência com desenvolvimento de tratamento de dados utilizando Visual Basic em Excel.",
