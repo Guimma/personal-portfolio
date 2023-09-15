@@ -790,6 +790,19 @@ main {
 
 .timeline { margin-bottom: 30px; }
 
+.download {
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+.left-align {
+  width: 100%;
+  float: left;
+  display: block;
+  margin-right: 10px;
+}
+
 .timeline .title-wrapper {
   display: flex;
   align-items: center;

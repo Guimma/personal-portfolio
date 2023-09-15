@@ -201,6 +201,14 @@ function translateTo(language) {
     const key = element.getAttribute('data-translate');
     element.textContent = translations[language][key];
   });
+
+  // Update the href attribute of the download link based on the language
+  const downloadResumeButton = document.getElementById('downloadLink');
+  if (language === 'en') {
+    downloadResumeButton.href = './assets/doc/resumeEN.pdf';
+  } else if (language === 'pt') {
+    downloadResumeButton.href = './assets/doc/resumePT.pdf';
+  }
 }
 
 // Example of triggering translation on language change
@@ -256,15 +264,16 @@ const translations = {
     article: "Article",
     testimonials1: "Lucas is an incredible professional! I had the opportunity to have him as a leader  and today I see a lot of what I learned from him in my way of leading. He is committed,  hardworking and very dedicated. He knows how to work in a team and always listens  with great respect and affection. It is unique and without a doubt he will be very successful in your professional life.",
     anpText: "Internship in software development. Experience with data processing development using Visual Basic in Excel.",
-    dtiText1: "Desenvolvedor de Software fullstack em diferentes projetos. Principais atividades:",
+    dtiText1: "Fullstack Software Engineer in different projects. Main activities:",
     dtiText2: "API development;",
     dtiText3: "Frontend web and mobile development;",
     dtiText4: "Leadership of development teams in the agile model;",
     dtiText5: "Use of devops and cloud development;",
-    dtiText6: "Co-host of software development podcast;"
+    dtiText6: "Co-host of software development podcast;",
+    downloadResume: "Download Resume"
   },
   pt: {
-    title: "Desenvolvedor Fullstack",
+    title: "Engenheiro de Software",
     showContacts: "Mostrar Contatos",
     whatDoing: "Minhas Skills",
     phone: "Telefone",
@@ -311,6 +320,7 @@ const translations = {
     dtiText3: "Desenvolvimento frontend web e mobile;",
     dtiText4: "Liderança de equipes de desenvolvimento no modelo ágil;",
     dtiText5: "Utilização de devops e desenvolvimento em nuvem;",
-    dtiText6: "Co-host do podcast de desenvolvimento de software;"
+    dtiText6: "Co-host do podcast de desenvolvimento de software;",
+    downloadResume: "Baixar Currículo"
   }
 };
