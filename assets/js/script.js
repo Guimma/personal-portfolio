@@ -303,7 +303,7 @@ const translations = {
     educationText1: "Bacharelado em Ciência da Computação",
     educationText2: "Ensino Médio",
     experience: "Experiência",
-    clients: "PT Clientes",
+    clients: "Clientes",
     dtiPeriod: "2019 - Atual",
     mySkills: "Competências Técnicas",
     languages: "Linguagens",
