@@ -194,6 +194,14 @@ function sendEmail() {
   window.location.href = mailtoLink;
 }
 
+// Example of triggering translation on language change
+const languageButtons = document.querySelectorAll('.translate-button');
+languageButtons.forEach((button) => {
+  button.addEventListener('click', (event) => {
+    const selectedLanguage = event.currentTarget.getAttribute('data-language');
+    translateTo(selectedLanguage);
+  });
+});
 
 function translateTo(language) {
   const elements = document.querySelectorAll('[data-translate]');
@@ -210,15 +218,6 @@ function translateTo(language) {
     downloadResumeButton.href = './assets/doc/resumePT.pdf';
   }
 }
-
-// Example of triggering translation on language change
-const languageButtons = document.querySelectorAll('.translate-button');
-languageButtons.forEach((button) => {
-  button.addEventListener('click', (event) => {
-    const selectedLanguage = event.currentTarget.getAttribute('data-language');
-    translateTo(selectedLanguage);
-  });
-});
 
 const translations = {
   en: {
@@ -262,7 +261,8 @@ const translations = {
     personalProjects: "Personal Projects",
     portfolioText: "Most of the projects I've worked on are private. Here's some of my public work.",
     article: "Article",
-    testimonials1: "Lucas is an incredible professional! I had the opportunity to have him as a leader  and today I see a lot of what I learned from him in my way of leading. He is committed,  hardworking and very dedicated. He knows how to work in a team and always listens  with great respect and affection. It is unique and without a doubt he will be very successful in your professional life.",
+    testimonials1: "Champs! You are a brilliant professional! Better than being a '7th-degree ninja' (hehehe) in the acronyms that surround our profession, is being a professional who immerses themselves in the context they are working in and asks the right questions to advance or even reconsider. You are that type. Success and keep up the upward trajectory. Cheers!",    
+    testimonials2: "Lucas is an incredible professional! I had the opportunity to have him as a leader  and today I see a lot of what I learned from him in my way of leading. He is committed,  hardworking and very dedicated. He knows how to work in a team and always listens  with great respect and affection. It is unique and without a doubt he will be very successful in your professional life.",
     anpText: "Internship in software development. Experience with data processing development using Visual Basic in Excel.",
     dtiText1: "Fullstack Software Engineer in different projects. Main activities:",
     dtiText2: "API development;",
@@ -313,7 +313,8 @@ const translations = {
     personalProjects: "Projetos Pessoais",
     portfolioText: "A maioria dos projetos em que trabalhei são privados. Aqui está um pouco do meu trabalho público.",
     article: "Artigo",
-    testimonials1: "O Lucas é um profissional incrível! Tive a oportunidade de tê-lo como líder e hoje enxergo muito do que aprendi com ele na minha forma de liderar. Ele é comprometido, esforçado e muito dedicado. Sabe trabalhar em equipe e sempre escuta com muito respeito e carinho. É diferenciado e, sem dúvida, terá muito sucesso na vida profissional.",
+    testimonials1: "Champs! Você é um profissional brilhante! Melhor do que ser 'ninja 7 faixas' (hehehe) nos acrônimos que cercam a nossa profissão, é ser um profissional que se imerge no contexto que está trabalhando e faz as perguntas certas para avançar ou, até mesmo, repensar. Você é deste tipo. Sucesso e continue nessa curva ascendente. Abraço!",
+    testimonials2: "O Lucas é um profissional incrível! Tive a oportunidade de tê-lo como líder e hoje enxergo muito do que aprendi com ele na minha forma de liderar. Ele é comprometido, esforçado e muito dedicado. Sabe trabalhar em equipe e sempre escuta com muito respeito e carinho. É diferenciado e, sem dúvida, terá muito sucesso na vida profissional.",
     anpText: "Estágio em desenvolvimento de software. Experiência com desenvolvimento de tratamento de dados utilizando Visual Basic em Excel.",
     dtiText1: "Desenvolvedor de Software fullstack em diferentes projetos. Principais atividades:",
     dtiText2: "Desenvolvimento de API's;",
